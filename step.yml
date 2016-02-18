@@ -1,0 +1,28 @@
+title: Codecov
+summary: |-
+  Upload your code coverage files to Codecov.io
+description: |-
+  Reduce technical debt with visualized test performance, faster code reviews and workflow enhancements. You can now upload your code coverage files to Codecov every time you kick off a build!
+website: https://github.com/guitcastro/codecov-android
+source_code_url: https://github.com/guitcastro/codecov-android
+support_url: https://github.com/guitcastro/codecov-android/issues
+host_os_tags:
+  - "ubuntu"
+project_type_tags:
+  - android
+type_tags:
+  - build
+  - android
+  - code_coverage
+  - test
+is_requires_admin_user: false
+is_always_run: false
+is_skippable: true
+inputs:
+  - CODECOV_TOKEN:
+    opts:
+      title: "Codecov.io token"
+      description: |
+        Codecov.io repository upload token
+      is_required: true
+      is_expand: true
